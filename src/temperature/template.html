@@ -1,0 +1,6 @@
+<section ng-controller="temperatureCtrl as temp">
+    <h1>{{ temp.title }}</h1>
+    <input type="text" ng-model="temp.typeGrade">
+    <button ng-click="temp.FahrenheitToCelsius(temp.typeGrade)">Convert to Celsius</button>
+    <p>{{ temp.showHere }}</p>
+</section>

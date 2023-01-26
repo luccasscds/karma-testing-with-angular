@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt" ng-app="MyApp">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS + Karma</title>
+
+    <!-- jquery -->
+    <script src="/lib/jquery/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="app">
+      <ng-include src="'/src/temperature/template.html'"></ng-include>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
